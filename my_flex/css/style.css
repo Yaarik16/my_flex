@@ -1,0 +1,286 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus, :active {
+  outline: none;
+}
+a:focus, a:active {
+  outline: none;
+}
+nav, footer, header, aside {
+  display: block;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input, button, textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a, a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul, li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+
+body {
+  font-family:Arial, Helvetica, sans-serif ;
+}
+
+
+
+
+
+
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 1 auto;
+}
+.hi {
+  background-color: #445262;
+  padding:50px 0;
+}
+.container {
+  max-width:1180px;
+  margin: 0px auto;
+}
+.hi__row {
+  display: flex;
+  justify-content: space-between;
+}
+.hi__body {
+  color: #fff;
+  padding-right: 30px;
+}
+.hi__title {
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+  font-size: 60px;
+  margin: 0 0 38px 0;
+}
+.hi__list li { 
+  background: url(../img/icon.png) 0 1px no-repeat;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+  line-height: 22px;
+  padding: 0 0 0 36px;
+  margin: 0 0 15px 0;
+}
+.hi__list li:last-child {
+  margin: 0;
+}
+.title {
+  color: #445161;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+
+
+
+
+
+.what {
+  padding: 50px 0;
+}
+.what__row {
+  display: flex;
+}
+.what__image {
+  flex: 0 0 430px;
+}
+.what__image img {
+  max-width: 100%;
+}
+.what__body {
+  flex: 1 1 auto;
+  margin: 0 0 0 38px;
+}
+.what__title {
+  margin: 0 0 33px 0;
+}
+.what__text p {
+  color: #333333;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 25px;
+  }
+
+
+
+
+
+
+.columns {
+  background-color: #f5f5f5;
+  padding: 50px 0 20px 0;
+}
+.columns__title {
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+.columns__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -8px;
+}
+.columns__column {
+  padding: 0 8px;
+  flex: 0 1 50%;
+  margin: 0 0 30px 0;
+}
+.item_row {
+  display: flex;
+}
+.item__image {
+  flex: 0 0 200px;
+}
+.item__image img {
+  max-width: 100%;
+}
+.item__body {
+  margin: 0 0 0px 15px;
+  flex: 1 1 auto;
+  position: relative;
+  top: -5px;
+}
+.item__title {
+  color: #445161;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 0 0 13px 0;
+}
+.item__text {
+  color: #333333;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+
+
+
+
+.vertical {
+  display: flex;
+  padding: 50px 0;
+}
+.vertical__title {
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+.vertical__body {
+  max-width: 990px;
+  margin: 0 auto;
+}
+.vertical__row {
+  display: flex;
+  margin: 0 -22.5px;
+}
+.vertical__column {
+  padding: 0 22.5px;
+  flex: 0 1 33.333%;
+  display: flex;
+}
+.vertical__item {
+  background-color: #445162;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #445162;
+  padding: 0 0 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+.item__subtitle {
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 12px 0;
+  text-align: center;
+}
+.item_label {
+  background-color: #fff;
+  color:#445162;
+  font-size: 40px;
+  padding: 15px;
+  text-align: center;
+}
+.vertical__text {
+  padding: 20px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  flex: 1 1 auto;
+}
+.vertical__text P {
+  margin: 0 0 15px 0;
+}
+.vertical__btn {
+  display: block;
+  height: 40px;
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 40px;
+  margin: 0 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #445161;
+}
+
+
+
+
+
+
+.footer {
+  background-color: #f5f5f5;
+}
+.footer__row {
+  display: flex;
+  height: 65px;
+  align-items: center;
+  justify-content: center;
+}
+.footer__text {
+  font-size: 12px;
+  color: #445162;
+  letter-spacing: 0.3px;
+}
